@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <test thread-count="5" name="Test"> <classes> <class name="intro.Sample" 
+		/> </classes> </test> -->
+
+	<test name="Bank Lone">
+		<classes>
+			<class name="intro.HouseLone">
+				<methods>
+					<include name="webAppHouseLone"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Car Showroom">
+		<classes>
+			<class name="intro.Car">
+				<methods>
+					<exclude name="price">
+					</exclude>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 

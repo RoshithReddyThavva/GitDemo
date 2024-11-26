@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T17:39:56 IST" name="Suite" finished-at="2024-11-12T17:39:56 IST" duration-ms="77">
+    <groups>
+      <group name="smoke">
+        <method signature="HouseLone.restAPIHouseLone()[pri:0, instance:intro.HouseLone@5a63f509]" name="restAPIHouseLone" class="intro.HouseLone"/>
+        <method signature="HouseLone.webAppHouseLone()[pri:0, instance:intro.HouseLone@5a63f509]" name="webAppHouseLone" class="intro.HouseLone"/>
+        <method signature="Sample.run()[pri:0, instance:intro.Sample@a9cd3b1]" name="run" class="intro.Sample"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-12T17:39:56 IST" name="Package level" finished-at="2024-11-12T17:39:56 IST" duration-ms="77">
+      <class name="intro.Sample">
+        <test-method signature="run()[pri:0, instance:intro.Sample@a9cd3b1]" started-at="2024-11-12T17:39:56 IST" name="run" finished-at="2024-11-12T17:39:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- intro.Sample -->
+      <class name="intro.HouseLone">
+        <test-method signature="restAPIHouseLone()[pri:0, instance:intro.HouseLone@5a63f509]" started-at="2024-11-12T17:39:56 IST" name="restAPIHouseLone" finished-at="2024-11-12T17:39:56 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAPIHouseLone -->
+        <test-method signature="webAppHouseLone()[pri:0, instance:intro.HouseLone@5a63f509]" started-at="2024-11-12T17:39:56 IST" name="webAppHouseLone" finished-at="2024-11-12T17:39:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAppHouseLone -->
+      </class> <!-- intro.HouseLone -->
+    </test> <!-- Package level -->
+  </suite> <!-- Suite -->
+</testng-results>
